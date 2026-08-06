@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Whisper models — multi-GB, downloaded by scripts/download_model.sh
+models/
+*.bin
+
+# Generated macOS launcher — built by scripts/make_app.sh
+# (contains a machine-specific absolute path)
+Whisper.app/
+
+# Runtime
+*.log
+*.wav
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Agent workspace
+.agent/

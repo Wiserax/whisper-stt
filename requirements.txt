@@ -1,0 +1,10 @@
+numpy==2.0.2
+pynput==1.8.1
+sounddevice==0.5.5
+PyQt6==6.10.2
+
+# macOS system bridges — global hotkey, clipboard paste, accessibility check
+pyobjc-core==12.0
+pyobjc-framework-Cocoa==12.0
+pyobjc-framework-Quartz==12.0
+pyobjc-framework-ApplicationServices==12.0
