@@ -4,6 +4,10 @@ Press **Ctrl+K**, speak, press again — your words are pasted straight into wha
 app your cursor is in. Everything runs locally on your Mac. No API key, no account,
 no audio ever leaves the machine.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="Whisper STT window: recording button, language selector, and a scrollable history of transcriptions" width="440">
+</p>
+
 Two front-ends share the same engine:
 
 - **`stt_app.py`** — a PyQt6 desktop app with a live waveform ring, language switcher,
